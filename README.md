@@ -2,14 +2,14 @@
 Dynamic Linear Regression by using on a set of points using Gradient descent. Uses both dynamic and set step size for descent.
 
 
-Program Execution:
+# Program Execution:
 
 My program asks the user to have a data.txt file with ordered pairs of coordinates.
 It does a linear regression through the data points and tries to minimize that error.
 The program also asks the user which method to use; one is for a fixed step size for error reduction, the other one is dynamic step size to make the program a bit more efficient. 
 If you entered the fixed size, you also have the input the number of iterations you want. 
 
-Program Design:
+# Program Design:
 
 The program uses the square of the vertical distance of the points from the guess as for the error and tries to reduce it. To maximize efficiency and not to guess randomly the program does gradient descent on the two variable discrete error function. 
 
@@ -23,7 +23,7 @@ The program stops when the error reducing graph has turned asymptotic and it doe
 The initial guess is always m = 0 and b = 0 to compare dynamic and fixed size methods with a set reference. 
 
 
-Known Bugs
+# Known Bugs
 
 Dynamic step sizes help mostly with data that are not that linear in nature and big data.
 But its not always the most efficient or most accurate in all cases.
